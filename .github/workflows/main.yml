@@ -65,6 +65,7 @@ jobs:
           context: ./backend/
           push: true
           tags: johniut/taski_backend:latest
+
   frontend_tests:
     runs-on: ubuntu-latest
 
